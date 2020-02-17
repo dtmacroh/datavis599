@@ -1,0 +1,1107 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.17.1226.1925                               -->
+<workbook original-version='10.5' source-build='10.5.0 (10500.17.1226.1925)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (legoframe)' inline='true' name='federated.0grfvhg01ylf8l11v969j06qrrxn' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='legoframe' name='excel-direct.1ctwhty07ox98919i95ap1pljtwb'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dmac1/Documents/CPSC 599 - Data Vis/datathon 6/legoframe.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[(No Color)]' />
+            <value name='[Aqua]' />
+            <value name='[Black]' />
+            <value name='[Blue-Violet]' />
+            <value name='[Blue]' />
+            <value name='[Bright Green]' />
+            <value name='[Bright Light Blue]' />
+            <value name='[Bright Light Orange]' />
+            <value name='[Bright Light Yellow]' />
+            <value name='[Bright Pink]' />
+            <value name='[Brown]' />
+            <value name='[Chrome Antique Brass]' />
+            <value name='[Chrome Black]' />
+            <value name='[Chrome Blue]' />
+            <value name='[Chrome Gold]' />
+            <value name='[Chrome Green]' />
+            <value name='[Chrome Pink]' />
+            <value name='[Chrome Silver]' />
+            <value name='[Copper]' />
+            <value name='[Dark Azure]' />
+            <value name='[Dark Blue-Violet]' />
+            <value name='[Dark Blue]' />
+            <value name='[Dark Bluish Gray]' />
+            <value name='[Dark Brown]' />
+            <value name='[Dark Flesh]' />
+            <value name='[Dark Gray]' />
+            <value name='[Dark Green]' />
+            <value name='[Dark Orange]' />
+            <value name='[Dark Pink]' />
+            <value name='[Dark Purple]' />
+            <value name='[Dark Red]' />
+            <value name='[Dark Tan]' />
+            <value name='[Dark Turquoise]' />
+            <value name='[Earth Orange]' />
+            <value name='[Fabuland Brown]' />
+            <value name='[Flat Dark Gold]' />
+            <value name='[Flat Silver]' />
+            <value name='[Flesh]' />
+            <value name='[Glitter Trans-Clear]' />
+            <value name='[Glitter Trans-Dark Pink]' />
+            <value name='[Glitter Trans-Light Blue]' />
+            <value name='[Glitter Trans-Neon Green]' />
+            <value name='[Glitter Trans-Purple]' />
+            <value name='[Glow In Dark Opaque]' />
+            <value name='[Glow In Dark Trans]' />
+            <value name='[Glow in Dark White]' />
+            <value name='[Green]' />
+            <value name='[Lavender]' />
+            <value name='[Light Aqua]' />
+            <value name='[Light Blue]' />
+            <value name='[Light Bluish Gray]' />
+            <value name='[Light Flesh]' />
+            <value name='[Light Gray]' />
+            <value name='[Light Green]' />
+            <value name='[Light Lime]' />
+            <value name='[Light Orange]' />
+            <value name='[Light Pink]' />
+            <value name='[Light Purple]' />
+            <value name='[Light Salmon]' />
+            <value name='[Light Turquoise]' />
+            <value name='[Light Violet]' />
+            <value name='[Light Yellow]' />
+            <value name='[Lime]' />
+            <value name='[Maersk Blue]' />
+            <value name='[Magenta]' />
+            <value name='[Medium Azure]' />
+            <value name='[Medium Blue]' />
+            <value name='[Medium Dark Flesh]' />
+            <value name='[Medium Dark Pink]' />
+            <value name='[Medium Green]' />
+            <value name='[Medium Lavender]' />
+            <value name='[Medium Lime]' />
+            <value name='[Medium Orange]' />
+            <value name='[Medium Violet]' />
+            <value name='[Metal Blue]' />
+            <value name='[Metallic Gold]' />
+            <value name='[Metallic Green]' />
+            <value name='[Metallic Silver]' />
+            <value name='[Milky White]' />
+            <value name='[Olive Green]' />
+            <value name='[Orange]' />
+            <value name='[Pearl Dark Gray]' />
+            <value name='[Pearl Gold]' />
+            <value name='[Pearl Light Gold]' />
+            <value name='[Pearl Light Gray]' />
+            <value name='[Pearl Very Light Gray]' />
+            <value name='[Pearl White]' />
+            <value name='[Pink]' />
+            <value name='[Purple]' />
+            <value name='[Red]' />
+            <value name='[Reddish Brown]' />
+            <value name='[Royal Blue]' />
+            <value name='[Rust]' />
+            <value name='[Salmon]' />
+            <value name='[Sand Blue]' />
+            <value name='[Sand Green]' />
+            <value name='[Sand Purple]' />
+            <value name='[Sand Red]' />
+            <value name='[Sky Blue]' />
+            <value name='[Speckle Black-Copper]' />
+            <value name='[Speckle Black-Gold]' />
+            <value name='[Speckle Black-Silver]' />
+            <value name='[Speckle DBGray-Silver]' />
+            <value name='[Tan]' />
+            <value name='[Trans Light Royal Blue]' />
+            <value name='[Trans-Black]' />
+            <value name='[Trans-Bright Green]' />
+            <value name='[Trans-Clear]' />
+            <value name='[Trans-Dark Blue]' />
+            <value name='[Trans-Dark Pink]' />
+            <value name='[Trans-Green]' />
+            <value name='[Trans-Light Blue]' />
+            <value name='[Trans-Light Purple]' />
+            <value name='[Trans-Medium Blue]' />
+            <value name='[Trans-Neon Green]' />
+            <value name='[Trans-Neon Orange]' />
+            <value name='[Trans-Neon Yellow]' />
+            <value name='[Trans-Orange]' />
+            <value name='[Trans-Pink]' />
+            <value name='[Trans-Purple]' />
+            <value name='[Trans-Red]' />
+            <value name='[Trans-Very Lt Blue]' />
+            <value name='[Trans-Yellow]' />
+            <value name='[Unknown]' />
+            <value name='[Very Light Bluish Gray]' />
+            <value name='[Very Light Gray]' />
+            <value name='[Very Light Orange]' />
+            <value name='[Violet]' />
+            <value name='[White]' />
+            <value name='[Yellow]' />
+            <value name='[Yellowish Green]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Sheet1].[(No Color)]' />
+              <field name='[Sheet1].[Aqua]' />
+              <field name='[Sheet1].[Black]' />
+              <field name='[Sheet1].[Blue-Violet]' />
+              <field name='[Sheet1].[Blue]' />
+              <field name='[Sheet1].[Bright Green]' />
+              <field name='[Sheet1].[Bright Light Blue]' />
+              <field name='[Sheet1].[Bright Light Orange]' />
+              <field name='[Sheet1].[Bright Light Yellow]' />
+              <field name='[Sheet1].[Bright Pink]' />
+              <field name='[Sheet1].[Brown]' />
+              <field name='[Sheet1].[Chrome Antique Brass]' />
+              <field name='[Sheet1].[Chrome Black]' />
+              <field name='[Sheet1].[Chrome Blue]' />
+              <field name='[Sheet1].[Chrome Gold]' />
+              <field name='[Sheet1].[Chrome Green]' />
+              <field name='[Sheet1].[Chrome Pink]' />
+              <field name='[Sheet1].[Chrome Silver]' />
+              <field name='[Sheet1].[Copper]' />
+              <field name='[Sheet1].[Dark Azure]' />
+              <field name='[Sheet1].[Dark Blue-Violet]' />
+              <field name='[Sheet1].[Dark Blue]' />
+              <field name='[Sheet1].[Dark Bluish Gray]' />
+              <field name='[Sheet1].[Dark Brown]' />
+              <field name='[Sheet1].[Dark Flesh]' />
+              <field name='[Sheet1].[Dark Gray]' />
+              <field name='[Sheet1].[Dark Green]' />
+              <field name='[Sheet1].[Dark Orange]' />
+              <field name='[Sheet1].[Dark Pink]' />
+              <field name='[Sheet1].[Dark Purple]' />
+              <field name='[Sheet1].[Dark Red]' />
+              <field name='[Sheet1].[Dark Tan]' />
+              <field name='[Sheet1].[Dark Turquoise]' />
+              <field name='[Sheet1].[Earth Orange]' />
+              <field name='[Sheet1].[Fabuland Brown]' />
+              <field name='[Sheet1].[Flat Dark Gold]' />
+              <field name='[Sheet1].[Flat Silver]' />
+              <field name='[Sheet1].[Flesh]' />
+              <field name='[Sheet1].[Glitter Trans-Clear]' />
+              <field name='[Sheet1].[Glitter Trans-Dark Pink]' />
+              <field name='[Sheet1].[Glitter Trans-Light Blue]' />
+              <field name='[Sheet1].[Glitter Trans-Neon Green]' />
+              <field name='[Sheet1].[Glitter Trans-Purple]' />
+              <field name='[Sheet1].[Glow In Dark Opaque]' />
+              <field name='[Sheet1].[Glow In Dark Trans]' />
+              <field name='[Sheet1].[Glow in Dark White]' />
+              <field name='[Sheet1].[Green]' />
+              <field name='[Sheet1].[Lavender]' />
+              <field name='[Sheet1].[Light Aqua]' />
+              <field name='[Sheet1].[Light Blue]' />
+              <field name='[Sheet1].[Light Bluish Gray]' />
+              <field name='[Sheet1].[Light Flesh]' />
+              <field name='[Sheet1].[Light Gray]' />
+              <field name='[Sheet1].[Light Green]' />
+              <field name='[Sheet1].[Light Lime]' />
+              <field name='[Sheet1].[Light Orange]' />
+              <field name='[Sheet1].[Light Pink]' />
+              <field name='[Sheet1].[Light Purple]' />
+              <field name='[Sheet1].[Light Salmon]' />
+              <field name='[Sheet1].[Light Turquoise]' />
+              <field name='[Sheet1].[Light Violet]' />
+              <field name='[Sheet1].[Light Yellow]' />
+              <field name='[Sheet1].[Lime]' />
+              <field name='[Sheet1].[Maersk Blue]' />
+              <field name='[Sheet1].[Magenta]' />
+              <field name='[Sheet1].[Medium Azure]' />
+              <field name='[Sheet1].[Medium Blue]' />
+              <field name='[Sheet1].[Medium Dark Flesh]' />
+              <field name='[Sheet1].[Medium Dark Pink]' />
+              <field name='[Sheet1].[Medium Green]' />
+              <field name='[Sheet1].[Medium Lavender]' />
+              <field name='[Sheet1].[Medium Lime]' />
+              <field name='[Sheet1].[Medium Orange]' />
+              <field name='[Sheet1].[Medium Violet]' />
+              <field name='[Sheet1].[Metal Blue]' />
+              <field name='[Sheet1].[Metallic Gold]' />
+              <field name='[Sheet1].[Metallic Green]' />
+              <field name='[Sheet1].[Metallic Silver]' />
+              <field name='[Sheet1].[Milky White]' />
+              <field name='[Sheet1].[Olive Green]' />
+              <field name='[Sheet1].[Orange]' />
+              <field name='[Sheet1].[Pearl Dark Gray]' />
+              <field name='[Sheet1].[Pearl Gold]' />
+              <field name='[Sheet1].[Pearl Light Gold]' />
+              <field name='[Sheet1].[Pearl Light Gray]' />
+              <field name='[Sheet1].[Pearl Very Light Gray]' />
+              <field name='[Sheet1].[Pearl White]' />
+              <field name='[Sheet1].[Pink]' />
+              <field name='[Sheet1].[Purple]' />
+              <field name='[Sheet1].[Red]' />
+              <field name='[Sheet1].[Reddish Brown]' />
+              <field name='[Sheet1].[Royal Blue]' />
+              <field name='[Sheet1].[Rust]' />
+              <field name='[Sheet1].[Salmon]' />
+              <field name='[Sheet1].[Sand Blue]' />
+              <field name='[Sheet1].[Sand Green]' />
+              <field name='[Sheet1].[Sand Purple]' />
+              <field name='[Sheet1].[Sand Red]' />
+              <field name='[Sheet1].[Sky Blue]' />
+              <field name='[Sheet1].[Speckle Black-Copper]' />
+              <field name='[Sheet1].[Speckle Black-Gold]' />
+              <field name='[Sheet1].[Speckle Black-Silver]' />
+              <field name='[Sheet1].[Speckle DBGray-Silver]' />
+              <field name='[Sheet1].[Tan]' />
+              <field name='[Sheet1].[Trans Light Royal Blue]' />
+              <field name='[Sheet1].[Trans-Black]' />
+              <field name='[Sheet1].[Trans-Bright Green]' />
+              <field name='[Sheet1].[Trans-Clear]' />
+              <field name='[Sheet1].[Trans-Dark Blue]' />
+              <field name='[Sheet1].[Trans-Dark Pink]' />
+              <field name='[Sheet1].[Trans-Green]' />
+              <field name='[Sheet1].[Trans-Light Blue]' />
+              <field name='[Sheet1].[Trans-Light Purple]' />
+              <field name='[Sheet1].[Trans-Medium Blue]' />
+              <field name='[Sheet1].[Trans-Neon Green]' />
+              <field name='[Sheet1].[Trans-Neon Orange]' />
+              <field name='[Sheet1].[Trans-Neon Yellow]' />
+              <field name='[Sheet1].[Trans-Orange]' />
+              <field name='[Sheet1].[Trans-Pink]' />
+              <field name='[Sheet1].[Trans-Purple]' />
+              <field name='[Sheet1].[Trans-Red]' />
+              <field name='[Sheet1].[Trans-Very Lt Blue]' />
+              <field name='[Sheet1].[Trans-Yellow]' />
+              <field name='[Sheet1].[Unknown]' />
+              <field name='[Sheet1].[Very Light Bluish Gray]' />
+              <field name='[Sheet1].[Very Light Gray]' />
+              <field name='[Sheet1].[Very Light Orange]' />
+              <field name='[Sheet1].[Violet]' />
+              <field name='[Sheet1].[White]' />
+              <field name='[Sheet1].[Yellow]' />
+              <field name='[Sheet1].[Yellowish Green]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1ctwhty07ox98919i95ap1pljtwb' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:EG2391:no:A1:EG2391:0' header='yes' outcome='2'>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Set Num' ordinal='1' />
+              <column datatype='string' name='Set Name' ordinal='2' />
+              <column datatype='string' name='Theme' ordinal='3' />
+              <column datatype='integer' name='Year' ordinal='4' />
+              <column datatype='integer' name='Num Parts' ordinal='5' />
+              <column datatype='integer' name='(No Color)' ordinal='6' />
+              <column datatype='integer' name='Aqua' ordinal='7' />
+              <column datatype='integer' name='Black' ordinal='8' />
+              <column datatype='integer' name='Blue' ordinal='9' />
+              <column datatype='integer' name='Blue-Violet' ordinal='10' />
+              <column datatype='integer' name='Bright Green' ordinal='11' />
+              <column datatype='integer' name='Bright Light Blue' ordinal='12' />
+              <column datatype='integer' name='Bright Light Orange' ordinal='13' />
+              <column datatype='integer' name='Bright Light Yellow' ordinal='14' />
+              <column datatype='integer' name='Bright Pink' ordinal='15' />
+              <column datatype='integer' name='Brown' ordinal='16' />
+              <column datatype='integer' name='Chrome Antique Brass' ordinal='17' />
+              <column datatype='integer' name='Chrome Black' ordinal='18' />
+              <column datatype='integer' name='Chrome Blue' ordinal='19' />
+              <column datatype='integer' name='Chrome Gold' ordinal='20' />
+              <column datatype='integer' name='Chrome Green' ordinal='21' />
+              <column datatype='integer' name='Chrome Pink' ordinal='22' />
+              <column datatype='integer' name='Chrome Silver' ordinal='23' />
+              <column datatype='integer' name='Copper' ordinal='24' />
+              <column datatype='integer' name='Dark Azure' ordinal='25' />
+              <column datatype='integer' name='Dark Blue' ordinal='26' />
+              <column datatype='integer' name='Dark Blue-Violet' ordinal='27' />
+              <column datatype='integer' name='Dark Bluish Gray' ordinal='28' />
+              <column datatype='integer' name='Dark Brown' ordinal='29' />
+              <column datatype='integer' name='Dark Flesh' ordinal='30' />
+              <column datatype='integer' name='Dark Gray' ordinal='31' />
+              <column datatype='integer' name='Dark Green' ordinal='32' />
+              <column datatype='integer' name='Dark Orange' ordinal='33' />
+              <column datatype='integer' name='Dark Pink' ordinal='34' />
+              <column datatype='integer' name='Dark Purple' ordinal='35' />
+              <column datatype='integer' name='Dark Red' ordinal='36' />
+              <column datatype='integer' name='Dark Tan' ordinal='37' />
+              <column datatype='integer' name='Dark Turquoise' ordinal='38' />
+              <column datatype='integer' name='Earth Orange' ordinal='39' />
+              <column datatype='integer' name='Fabuland Brown' ordinal='40' />
+              <column datatype='integer' name='Flat Dark Gold' ordinal='41' />
+              <column datatype='integer' name='Flat Silver' ordinal='42' />
+              <column datatype='integer' name='Flesh' ordinal='43' />
+              <column datatype='integer' name='Glitter Trans-Clear' ordinal='44' />
+              <column datatype='integer' name='Glitter Trans-Dark Pink' ordinal='45' />
+              <column datatype='integer' name='Glitter Trans-Light Blue' ordinal='46' />
+              <column datatype='integer' name='Glitter Trans-Neon Green' ordinal='47' />
+              <column datatype='integer' name='Glitter Trans-Purple' ordinal='48' />
+              <column datatype='integer' name='Glow In Dark Opaque' ordinal='49' />
+              <column datatype='integer' name='Glow In Dark Trans' ordinal='50' />
+              <column datatype='integer' name='Glow in Dark White' ordinal='51' />
+              <column datatype='integer' name='Green' ordinal='52' />
+              <column datatype='integer' name='Lavender' ordinal='53' />
+              <column datatype='integer' name='Light Aqua' ordinal='54' />
+              <column datatype='integer' name='Light Blue' ordinal='55' />
+              <column datatype='integer' name='Light Bluish Gray' ordinal='56' />
+              <column datatype='integer' name='Light Flesh' ordinal='57' />
+              <column datatype='integer' name='Light Gray' ordinal='58' />
+              <column datatype='integer' name='Light Green' ordinal='59' />
+              <column datatype='integer' name='Light Lime' ordinal='60' />
+              <column datatype='integer' name='Light Orange' ordinal='61' />
+              <column datatype='integer' name='Light Pink' ordinal='62' />
+              <column datatype='integer' name='Light Purple' ordinal='63' />
+              <column datatype='integer' name='Light Salmon' ordinal='64' />
+              <column datatype='integer' name='Light Turquoise' ordinal='65' />
+              <column datatype='integer' name='Light Violet' ordinal='66' />
+              <column datatype='integer' name='Light Yellow' ordinal='67' />
+              <column datatype='integer' name='Lime' ordinal='68' />
+              <column datatype='integer' name='Maersk Blue' ordinal='69' />
+              <column datatype='integer' name='Magenta' ordinal='70' />
+              <column datatype='integer' name='Medium Azure' ordinal='71' />
+              <column datatype='integer' name='Medium Blue' ordinal='72' />
+              <column datatype='integer' name='Medium Dark Flesh' ordinal='73' />
+              <column datatype='integer' name='Medium Dark Pink' ordinal='74' />
+              <column datatype='integer' name='Medium Green' ordinal='75' />
+              <column datatype='integer' name='Medium Lavender' ordinal='76' />
+              <column datatype='integer' name='Medium Lime' ordinal='77' />
+              <column datatype='integer' name='Medium Orange' ordinal='78' />
+              <column datatype='integer' name='Medium Violet' ordinal='79' />
+              <column datatype='integer' name='Metal Blue' ordinal='80' />
+              <column datatype='integer' name='Metallic Gold' ordinal='81' />
+              <column datatype='integer' name='Metallic Green' ordinal='82' />
+              <column datatype='integer' name='Metallic Silver' ordinal='83' />
+              <column datatype='integer' name='Milky White' ordinal='84' />
+              <column datatype='integer' name='Olive Green' ordinal='85' />
+              <column datatype='integer' name='Orange' ordinal='86' />
+              <column datatype='integer' name='Pearl Dark Gray' ordinal='87' />
+              <column datatype='integer' name='Pearl Gold' ordinal='88' />
+              <column datatype='integer' name='Pearl Light Gold' ordinal='89' />
+              <column datatype='integer' name='Pearl Light Gray' ordinal='90' />
+              <column datatype='integer' name='Pearl Very Light Gray' ordinal='91' />
+              <column datatype='integer' name='Pearl White' ordinal='92' />
+              <column datatype='integer' name='Pink' ordinal='93' />
+              <column datatype='integer' name='Purple' ordinal='94' />
+              <column datatype='integer' name='Red' ordinal='95' />
+              <column datatype='integer' name='Reddish Brown' ordinal='96' />
+              <column datatype='integer' name='Royal Blue' ordinal='97' />
+              <column datatype='integer' name='Rust' ordinal='98' />
+              <column datatype='integer' name='Salmon' ordinal='99' />
+              <column datatype='integer' name='Sand Blue' ordinal='100' />
+              <column datatype='integer' name='Sand Green' ordinal='101' />
+              <column datatype='integer' name='Sand Purple' ordinal='102' />
+              <column datatype='integer' name='Sand Red' ordinal='103' />
+              <column datatype='integer' name='Sky Blue' ordinal='104' />
+              <column datatype='integer' name='Speckle Black-Copper' ordinal='105' />
+              <column datatype='integer' name='Speckle Black-Gold' ordinal='106' />
+              <column datatype='integer' name='Speckle Black-Silver' ordinal='107' />
+              <column datatype='integer' name='Speckle DBGray-Silver' ordinal='108' />
+              <column datatype='integer' name='Tan' ordinal='109' />
+              <column datatype='integer' name='Trans Light Royal Blue' ordinal='110' />
+              <column datatype='integer' name='Trans-Black' ordinal='111' />
+              <column datatype='integer' name='Trans-Bright Green' ordinal='112' />
+              <column datatype='integer' name='Trans-Clear' ordinal='113' />
+              <column datatype='integer' name='Trans-Dark Blue' ordinal='114' />
+              <column datatype='integer' name='Trans-Dark Pink' ordinal='115' />
+              <column datatype='integer' name='Trans-Green' ordinal='116' />
+              <column datatype='integer' name='Trans-Light Blue' ordinal='117' />
+              <column datatype='integer' name='Trans-Light Purple' ordinal='118' />
+              <column datatype='integer' name='Trans-Medium Blue' ordinal='119' />
+              <column datatype='integer' name='Trans-Neon Green' ordinal='120' />
+              <column datatype='integer' name='Trans-Neon Orange' ordinal='121' />
+              <column datatype='integer' name='Trans-Neon Yellow' ordinal='122' />
+              <column datatype='integer' name='Trans-Orange' ordinal='123' />
+              <column datatype='integer' name='Trans-Pink' ordinal='124' />
+              <column datatype='integer' name='Trans-Purple' ordinal='125' />
+              <column datatype='integer' name='Trans-Red' ordinal='126' />
+              <column datatype='integer' name='Trans-Very Lt Blue' ordinal='127' />
+              <column datatype='integer' name='Trans-Yellow' ordinal='128' />
+              <column datatype='integer' name='Unknown' ordinal='129' />
+              <column datatype='integer' name='Very Light Bluish Gray' ordinal='130' />
+              <column datatype='integer' name='Very Light Gray' ordinal='131' />
+              <column datatype='integer' name='Very Light Orange' ordinal='132' />
+              <column datatype='integer' name='Violet' ordinal='133' />
+              <column datatype='integer' name='White' ordinal='134' />
+              <column datatype='integer' name='Yellow' ordinal='135' />
+              <column datatype='integer' name='Yellowish Green' ordinal='136' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Set Num</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Set Num]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Set Num</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Set Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Set Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Set Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theme</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Theme]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Theme</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Num Parts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Num Parts]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Num Parts</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:EG2391:no:A1:EG2391:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.172382' measure-ordering='alphabetic' measure-percentage='0.827618' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (legoframe)' name='federated.0grfvhg01ylf8l11v969j06qrrxn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0grfvhg01ylf8l11v969j06qrrxn'>
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Year:qk]</rows>
+        <cols>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (legoframe)' name='federated.0grfvhg01ylf8l11v969j06qrrxn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0grfvhg01ylf8l11v969j06qrrxn'>
+            <column datatype='integer' name='[Num Parts]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Num Parts]' derivation='Stdev' name='[std:Num Parts:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <reference-line axis-column='[federated.0grfvhg01ylf8l11v969j06qrrxn].[std:Num Parts:qk]' enable-instant-analytics='true' fill-above='false' fill-below='false' formula='medianconfidence' id='refline0' label-type='none' paired-distribution-id='refline1' probability='95' scope='per-cell' show-lines='both' symmetric='false' value-column='[federated.0grfvhg01ylf8l11v969j06qrrxn].[std:Num Parts:qk]' z-order='1' />
+            <reference-line axis-column='[federated.0grfvhg01ylf8l11v969j06qrrxn].[std:Num Parts:qk]' enable-instant-analytics='true' formula='median' id='refline1' label-type='none' paired-distribution-id='refline0' probability='95' scope='per-cell' value-column='[federated.0grfvhg01ylf8l11v969j06qrrxn].[std:Num Parts:qk]' z-order='2' />
+          </pane>
+        </panes>
+        <rows>[federated.0grfvhg01ylf8l11v969j06qrrxn].[std:Num Parts:qk]</rows>
+        <cols>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (legoframe)' name='federated.0grfvhg01ylf8l11v969j06qrrxn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0grfvhg01ylf8l11v969j06qrrxn'>
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Theme]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Theme]' derivation='None' name='[none:Theme:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Pivot Field Names:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0grfvhg01ylf8l11v969j06qrrxn].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</field>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Set Name:nk]</field>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</field>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Pivot Field Names:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Pivot Field Names:nk]</field>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Theme:nk]</field>
+            <field>[federated.0grfvhg01ylf8l11v969j06qrrxn].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      sDRJAGFp/w+BwloJEhSH/gAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

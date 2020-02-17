@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.17.1226.1925                               -->
+<workbook original-version='10.5' source-build='10.5.0 (10500.17.1226.1925)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='2018 V&amp;A Qualitative Datathon - @MeCookieMonster - Raw_Data' inline='true' name='federated.0cuvzhz0s7xl9v11i9imn134p0he' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2018 V&amp;A Qualitative Datathon - @MeCookieMonster' name='excel-direct.0vti5kx0h6os0816mexqa1eesz2b'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dmac1/Downloads/2018 V&amp;A Qualitative Datathon - @MeCookieMonster.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='2018 V&amp;A Qualitative Datathon - @MeCookieMonster (2)' name='excel-direct.1eane8m14hz3wj13n2lcc15slnkx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dmac1/Downloads/2018 V&amp;A Qualitative Datathon - @MeCookieMonster.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1eane8m14hz3wj13n2lcc15slnkx' name='Raw_Data' table='[Raw_Data$]' type='table'>
+          <columns gridOrigin='A1:F81:no:A1:F81:0' header='yes' outcome='6'>
+            <column datatype='integer' name='tweet-id' ordinal='0' />
+            <column datatype='string' name='tweet-text' ordinal='1' />
+            <column datatype='string' name='tweet-author' ordinal='2' />
+            <column datatype='integer' name='tweet-timestamp' ordinal='3' />
+            <column datatype='datetime' name='tweet-timestamp-date' ordinal='4' />
+            <column datatype='string' name='retweet' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>tweet-id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tweet-id]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>tweet-id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet-text</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tweet-text]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>tweet-text</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet-author</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tweet-author]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>tweet-author</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet-timestamp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tweet-timestamp]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>tweet-timestamp</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet-timestamp-date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[tweet-timestamp-date]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>tweet-timestamp-date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retweet</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[retweet]</local-name>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias>retweet</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Raw_Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F81:no:A1:F81:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='time' datatype='integer' name='[Calculation_158470464025260032]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEPART(&apos;hour&apos;, DATETIME([tweet-timestamp-date]))' />
+      </column>
+      <column caption='month' datatype='string' name='[Calculation_158470464032448513]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='DATENAME(&apos;month&apos;,DATETIME([tweet-timestamp-date]))' />
+      </column>
+      <column caption='datetimedate' datatype='datetime' name='[Calculation_158470464033193986]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATETIME([tweet-timestamp-date])' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Retweet' datatype='string' name='[retweet]' role='dimension' type='nominal' />
+      <column caption='Tweet-Author' datatype='string' name='[tweet-author]' role='dimension' type='nominal' />
+      <column caption='Tweet-Id' datatype='integer' name='[tweet-id]' role='dimension' type='ordinal' />
+      <column caption='Tweet-Text' datatype='string' name='[tweet-text]' role='dimension' type='nominal' />
+      <column aggregation='Count' caption='Tweet-Timestamp-Date' datatype='datetime' name='[tweet-timestamp-date]' role='dimension' type='ordinal' />
+      <column caption='Tweet-Timestamp' datatype='integer' name='[tweet-timestamp]' role='measure' type='quantitative' />
+      <column-instance column='[tweet-author]' derivation='None' name='[none:tweet-author:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.557924' measure-ordering='alphabetic' measure-percentage='0.442076' rowDisplayCount='1000' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:tweet-author:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cookie Monster&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Twitter Moments&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Good Morning America&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='tweet-id' />
+        <field-sort-custom-order field='tweet-text' />
+        <field-sort-custom-order field='tweet-author' />
+        <field-sort-custom-order field='tweet-timestamp' />
+        <field-sort-custom-order field='tweet-timestamp-date' />
+        <field-sort-custom-order field='Calculation_158470464033193986' />
+        <field-sort-custom-order field='Calculation_158470464032448513' />
+        <field-sort-custom-order field='Calculation_158470464025260032' />
+        <field-sort-custom-order field='retweet' />
+      </field-sort-info>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Tweets over Time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2018 V&amp;A Qualitative Datathon - @MeCookieMonster - Raw_Data' name='federated.0cuvzhz0s7xl9v11i9imn134p0he' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cuvzhz0s7xl9v11i9imn134p0he'>
+            <column caption='datetimedate' datatype='datetime' name='[Calculation_158470464033193986]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETIME([tweet-timestamp-date])' />
+            </column>
+            <column-instance column='[tweet-id]' derivation='Count' name='[cnt:tweet-id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_158470464033193986]' derivation='Hour' name='[hr:Calculation_158470464033193986:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_158470464033193986]' derivation='Month' name='[mn:Calculation_158470464033193986:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[tweet-author]' derivation='None' name='[none:tweet-author:nk]' pivot='key' type='nominal' />
+            <column caption='Tweet-Author' datatype='string' name='[tweet-author]' role='dimension' type='nominal' />
+            <column caption='Tweet-Id' datatype='integer' name='[tweet-id]' role='dimension' type='ordinal' />
+            <column aggregation='Count' caption='Tweet-Timestamp-Date' datatype='datetime' name='[tweet-timestamp-date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_158470464033193986]' derivation='Year' name='[yr:Calculation_158470464033193986:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:tweet-author:nk]' />
+              <lod column='[federated.0cuvzhz0s7xl9v11i9imn134p0he].[hr:Calculation_158470464033193986:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5162431001663208' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[cnt:tweet-id:qk]</rows>
+        <cols>([federated.0cuvzhz0s7xl9v11i9imn134p0he].[yr:Calculation_158470464033193986:ok] / [federated.0cuvzhz0s7xl9v11i9imn134p0he].[mn:Calculation_158470464033193986:ok])</cols>
+        <show-full-range>
+          <column>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[Calculation_158470464033193986]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Most Active Times&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2018 V&amp;A Qualitative Datathon - @MeCookieMonster - Raw_Data' name='federated.0cuvzhz0s7xl9v11i9imn134p0he' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cuvzhz0s7xl9v11i9imn134p0he'>
+            <column caption='datetimedate' datatype='datetime' name='[Calculation_158470464033193986]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETIME([tweet-timestamp-date])' />
+            </column>
+            <column-instance column='[tweet-id]' derivation='Count' name='[cnt:tweet-id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_158470464033193986]' derivation='Hour' name='[hr:Calculation_158470464033193986:ok]' pivot='key' type='ordinal' />
+            <column caption='Tweet-Id' datatype='integer' name='[tweet-id]' role='dimension' type='ordinal' />
+            <column aggregation='Count' caption='Tweet-Timestamp-Date' datatype='datetime' name='[tweet-timestamp-date]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[cnt:tweet-id:qk]</rows>
+        <cols>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[hr:Calculation_158470464033193986:ok]</cols>
+        <show-full-range>
+          <column>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[Calculation_158470464033193986]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:tweet-author:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:Calculation_158470464032448513:nk]</field>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:retweet:nk]</field>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:tweet-author:nk]</field>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:tweet-id:ok]</field>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[yr:Calculation_158470464033193986:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[none:tweet-id:ok]</field>
+            <field>[federated.0cuvzhz0s7xl9v11i9imn134p0he].[yr:Calculation_158470464033193986:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AIn2PwzLbNVo0BjcAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
